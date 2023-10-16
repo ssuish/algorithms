@@ -20,8 +20,8 @@ public class Process
         this._arrivalTime = ArrivalTime;
         this._CPUBurstTime = CPUBurstTime;
         this._priority = Priority;
-        this.WaitingTime = waitingTime;
-        this.TurnaroundTime = turnaroundTime;
+        this._waitingTime = waitingTime;
+        this._turnaroundTime = turnaroundTime;
     }
 
     public string ProcessName { get => _processName; set => _processName = value; }
